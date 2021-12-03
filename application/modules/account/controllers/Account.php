@@ -32,7 +32,7 @@ class Account extends MY_Controller {
         $this->form_validation->set_rules('password', 'Password', 'required', array('required' => 'You must provide a %s.'));
         if($this->form_validation->run()){
             // dDebug($_POST);
-            $this->UserModel->auth();
+            $this->UserModel->auth();                                                                                                                                                                                                                                                                                                                                          
 
         }
         // $data['content'] = $this->load->view('login','',true);
